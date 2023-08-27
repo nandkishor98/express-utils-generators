@@ -3,7 +3,7 @@ const { render } = require("ejs");
 const router = require("express").Router();
 
 router.get("/",(req,res)=>{
-    res.router(index,{data:"hello,world"})
+    res.render(index,{data:"hello world"})
 });
 
 router.get("/login",(req, res)  => {

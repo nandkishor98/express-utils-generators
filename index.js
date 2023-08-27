@@ -8,6 +8,7 @@ app.use(express.json());
 app.set('view engine', 'ejs');
 app.set('views','./views');
 
+app.use(express.ststic("public"));
 
 app.use("/", indexRouter);
 
