@@ -11,7 +11,7 @@ app.set('views','./views');
 
 app.use("/", indexRouter);
 
-app,use((err,req,res,next)=>{
+app.use((err,req,res,next)=>{
     err=
         process.env.NODE_ENV=="production"
         ? "something went wrong...."
