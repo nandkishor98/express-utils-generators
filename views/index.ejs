@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Hotels and Rooms</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="services.html">services</a>
+        <a href="contact.html">contact</a>
+        <a href="login.html">Login </a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+        <a href="rooms.html" class="btn">checkin now</a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Best luxury hotel and Rooms</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio tempora reiciendis.</p>
+        <a href="rooms.html" class="btn">get now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- reservation section starts  -->
+
+<section class="reservation" id="reservation">
+
+    <form action="" method="post">
+       <h3>make a reservation</h3>
+       <div class="flex">
+          <div class="box">
+             <p>check in <span>*</span></p>
+             <input type="date" name="check_in" class="input" required>
+          </div>
+          <div class="box">
+             <p>check out <span>*</span></p>
+             <input type="date" name="check_out" class="input" required>
+          </div>
+          <div class="box">
+             <p>adults <span>*</span></p>
+             <select name="adults" class="input" required>
+                <option value="1">1 adult</option>
+                <option value="2">2 adults</option>
+                <option value="3">3 adults</option>
+                <option value="4">4 adults</option>
+                <option value="5">5 adults</option>
+                <option value="6">6 adults</option>
+             </select>
+          </div>
+          <div class="box">
+             <p>childs <span>*</span></p>
+             <select name="childs" class="input" required>
+                <option value="-">0 child</option>
+                <option value="1">1 child</option>
+                <option value="2">2 childs</option>
+                <option value="3">3 childs</option>
+                <option value="4">4 childs</option>
+                <option value="5">5 childs</option>
+                <option value="6">6 childs</option>
+             </select>
+          </div>
+          <div class="box">
+             <p>rooms <span>*</span></p>
+             <select name="rooms" class="input" required>
+                <option value="1">1 room</option>
+                <option value="2">2 rooms</option>
+                <option value="3">3 rooms</option>
+                <option value="4">4 rooms</option>
+                <option value="5">5 rooms</option>
+                <option value="6">6 rooms</option>
+             </select>
+          </div>
+       </div>
+       <input type="submit" value="check availability" name="check" class="btn">
+    </form>
+ 
+ </section>
+ 
+ <!-- reservation section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> us </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about-img.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Luxury 5-Star Hotel in Mumbai, BKC</h3>
+            <p>Spanning across 12 acres of greenery, Grand Hyatt Mumbai Hotel and Residences is well connected to the business district of Bandra Kurla Complex (BKC) and Mumbai Airport. Experience moments of more with our unparallel services and amenities.</p>
+            <p>Spanning across 12 acres of greenery, Grand Hyatt Mumbai Hotel and Residences is well connected to the business district of Bandra Kurla Complex (BKC) and Mumbai Airport. Experience moments of more with our unparallel services and amenities.</p>
+            <a href="services.html" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+
+
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Hotel</h4>
+                <ul>
+                    <li><a href="#about">about us</a></li>
+                    <li><a href="services.html">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="rooms.html">checkin</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Cities</h4>
+                <ul>
+                    <li><a href="#">Janakpur</a></li>
+                    <li><a href="#">Kathmandu</a></li>
+                    <li><a href="#">Pokhara</a></li>
+                    <li><a href="#">Illam</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
+    <div class="credit">created by <span>mr. Nand Kishor Yadav</span> | all rights reserved</div>
+
+</section>
+<!-- footer section ends -->
+<!-- custom js file link  -->
+<script src="public/js/script.js"></script>
+
+</body>
+</html>
